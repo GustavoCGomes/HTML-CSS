@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans',Courier New, Courier, monospace;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+                   
+            Medida Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1 em - basear sempre no em
+            Recomendação usar sempre o px ou em
+            */
+            font-size: 1em;
+            font-weight: normal; /*peso*/
+            font-style: italic;
+            text-decoration: underline; /*sublinhado*/
+            /*lighter normal bold bolder*/
+        }
+        h1{
+            /*font-family: 'Work Sans','sans serif';
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+
+            /*Shorthan font - Propriedade 
+            - font-style -> font weight -> font-size -> font-family*/
+            font: italic bolder 3em 'Work Sans', sans-serif; 
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo doloribus minima quasi tempore accusantium mollitia, possimus, similique atque, nostrum deleniti magni nihil? Maiores repellendus quia sit deserunt aspernatur. Consequatur, dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam culpa cum sit provident maiores sunt nobis fugit veniam natus! Doloribus rerum esse suscipit quos beatae consequuntur corrupti, inventore ullam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim numquam vitae, accusantium rerum ex est nemo explicabo error dolorum atque nam tempore cum qui nobis non! Veniam, neque possimus!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam quia adipisci! Explicabo voluptas ipsa dignissimos distinctio, nobis nesciunt atque eveniet culpa aut alias aliquam assumenda accusantium, eum deleniti? Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugiat, voluptas aut totam reprehenderit consequuntur. Corporis molestias illum dolores, suscipit accusantium sapiente, fugiat vel hic qui amet provident quis nulla.</p>
+
+</body>
+</html>
