@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora Dias Corridos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculadora Dias Corridos</h1>
-    <form name="form_main">
-
-        <p>
-            <label for="date_ini">Data inicial:</label>
-            <input type="date" name="date_ini" id="date_ini">
-        </p>
-
-        <p>
-            <label for="date_end">Data do Vencimento: </label>
-            <input type="date" name="date_end" id="date_end">
-        </p>
-
-            <label for="days" id="days">Dias passados: </label> <br><br>
-    
-            <button type="button" onclick="countDays()">Contar</button> 
-    </form>
+    <main>
+        <h1>Calculadora Dias Corridos</h1>
+        <form name="form_main">
+            <p>
+                <label for="date_ini">Data inicial:</label>
+                <input type="date" name="date_ini" id="date_ini">
+            </p>
+            <p>
+                <label for="date_end">Data do Vencimento: </label>
+                <input type="date" name="date_end" id="date_end">
+            </p>
+                <label for="days" id="days">Dias passados: </label> <br><br>
+        
+                <button type="button" onclick="countDays()">Contar</button>
+        </form>
+    </main>
 
     <script>
         const second = 1000;
