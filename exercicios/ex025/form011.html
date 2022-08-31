@@ -13,15 +13,14 @@
         <form name="form_main">
             <p>
                 <label for="date_ini">Data inicial:</label>
-                <input type="date" name="date_ini" id="date_ini">
+                <input type="date" name="date_ini" id="date_ini" oninput="countDays()">
             </p>
             <p>
                 <label for="date_end">Data do Vencimento: </label>
-                <input type="date" name="date_end" id="date_end">
+                <input type="date" name="date_end" id="date_end" oninput="countDays()">
             </p>
-                <label for="days" id="days">Dias passados: </label> <br><br>
-        
-                <button type="button" onclick="countDays()">Contar</button>
+                <label for="days">Dias Corridos: </label>
+                <output id="days"></output> <br><br>
         </form>
     </main>
 
