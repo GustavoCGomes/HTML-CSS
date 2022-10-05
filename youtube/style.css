@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(212, 160, 160);
+}
+
+#titulo {
+    color: #b22222;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.principal {
+    color: #cd5c5c;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+button:hover{
+    color: blue;
+}
+
